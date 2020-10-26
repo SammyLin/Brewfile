@@ -16,6 +16,7 @@ brew automake
 brew aws-shell
 brew awscli
 brew bat
+brew bdw-gc
 brew boost
 brew cairo
 brew carthage
@@ -30,10 +31,13 @@ brew coreutils
 brew cscope
 brew ctags
 brew curl
+brew dav1d
 brew dep
 brew dialog
 brew diff-so-fancy
 brew dnsmasq
+brew docbook
+brew docbook-xsl
 brew docker
 brew docker-compose
 brew docker-machine
@@ -53,11 +57,13 @@ brew gcc@4.9
 brew gd
 brew gdbm
 brew gettext
+brew ghostscript
 brew giflib
 brew git
 brew glib
 brew glide
 brew gmp
+brew gnu-getopt
 brew gnutls
 brew go
 brew gobject-introspection
@@ -65,6 +71,7 @@ brew google-benchmark
 brew graphite2
 brew graphviz
 brew gts
+brew guile
 brew harfbuzz
 brew helm
 brew highlight
@@ -81,6 +88,7 @@ brew jasper
 brew jpeg
 brew jq
 brew json-c
+brew k9s
 brew krb5
 brew kube-aws
 brew kube-ps1
@@ -89,6 +97,7 @@ brew lame
 brew leptonica
 brew libarchive
 brew libass
+brew libb2
 brew libbluray
 brew libde265
 brew libevent
@@ -97,6 +106,7 @@ brew libgpg-error
 brew libheif
 brew libidn2
 brew libksba
+brew liblqr
 brew libmaxminddb
 brew libogg
 brew libomp
@@ -150,6 +160,7 @@ brew nvm
 brew oniguruma
 brew opencore-amr
 brew openexr
+brew openjdk
 brew openjpeg
 brew openssl@1.1
 brew opus
@@ -157,6 +168,7 @@ brew ossp-uuid
 brew p11-kit
 brew packer
 brew pandoc
+brew pango
 brew parquet-tools
 brew pcre
 brew pcre2
@@ -169,13 +181,12 @@ brew postgresql
 brew pre-commit
 brew prettyping
 brew protobuf
-brew protobuf@3.7
 brew pulumi
-brew python
-brew python@2
 brew python@3.8
+brew python@3.9
 brew qrencode
 brew qtfaststart
+brew rav1e
 brew rclone
 brew readline
 brew reattach-to-user-namespace
@@ -206,7 +217,6 @@ brew unixodbc
 brew utf8proc
 brew vapoursynth
 brew vault
-brew vim
 brew watch
 brew webp
 brew wget
@@ -215,6 +225,7 @@ brew wtfutil
 brew wxmac
 brew x264
 brew x265
+brew xmlto
 brew xvid
 brew xz
 brew yarn
@@ -226,13 +237,13 @@ brew zimg
 brew zplug
 brew zsh-completions
 brew zsh-syntax-highlighting
-
-tap homebrew/php
+brew zstd
 
 tap homebrew/services
 
 tap homebrew/cask
 cask 1password-cli
+cask google-cloud-sdk
 cask mysql-connector-python
 cask ngrok
 
@@ -240,7 +251,6 @@ tap buildkite/buildkite
 brew buildkite-agent
 
 tap derailed/k9s
-brew k9s
 
 tap go-delve/delve
 
@@ -260,23 +270,21 @@ brew tfswitch
 tap wtfutil/wtfutil
 
 # App Store applications
-appstore 918858936 Airmail (3.6.73)
-appstore 1290358394 Cardhop (1.3.3)
-appstore 975937182 Fantastical (2.5.14)
-appstore 682658836 GarageBand (10.2.0)
-appstore 408981434 iMovie (10.1.14)
+appstore 918858936 Airmail (4.1.6)
+appstore 1290358394 Cardhop (1.3.6)
+appstore 975937182 Fantastical (3.2.2)
+appstore 682658836 GarageBand (10.3.5)
+appstore 408981434 iMovie (10.1.16)
 appstore 934011232 Jeff (1.0)
-appstore 409183694 Keynote (7.3.1)
-appstore 539883307 LINE (5.6.1)
-appstore 409203825 Numbers (4.3.1)
-appstore 409201541 Pages (6.3.1)
+appstore 409183694 Keynote (10.2)
+appstore 539883307 LINE (6.3.2)
+appstore 409203825 Numbers (10.2)
+appstore 409201541 Pages (10.2)
 appstore 568494494 Pocket (1.8.5)
 appstore 866773894 Quiver (3.2.7)
-appstore 803453959 Slack (4.2.0)
-appstore 1176895641 Spark (2.5.2)
-appstore 425424353 The Unarchiver (4.1.0)
-appstore 836500024 WeChat (2.3.29)
-appstore 494803304 WiFi Explorer (2.6)
-appstore 497799835 Xcode (9.2)
-appstore 457622435 Yoink (3.5.7)
-appstore 491854842 YoudaoDict (2.6.1)
+appstore 803453959 Slack (4.10.3)
+appstore 1176895641 Spark (2.9.9)
+appstore 425424353 The Unarchiver (4.2.2)
+appstore 494803304 WiFi Explorer (2.6.2)
+appstore 497799835 Xcode (12.1)
+appstore 457622435 Yoink (3.5.8)
